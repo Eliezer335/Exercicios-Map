@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Dada uma lista de raios [2, 5, 7.1, 0.3, 10], use map para calcular a
+         área de cada círculo correspondente, usando a fórmula A = πr².</h2>
+    <script>
+        const numeros = [2, 5, 7.1, 0.3, 10];
+
+        const calculo = numeros.map(circulo => ( circulo * 3.14))
+
+        console.log("lista",numeros);
+        console.log("Nova Lista",calculo);
+    </script>
+</body>
+</html>
